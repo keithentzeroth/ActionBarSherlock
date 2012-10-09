@@ -64,7 +64,7 @@
     <string name="static_attach">Static Attachment</string>
     <string name="static_attach_content">This is a simple showcase of how easy it is to add the action bar to your activities without having to extend from a custom activity. Take a look at the source code, it\'s surprisingly simple!</string>
 
-    <string name="styled">Styled</string>
+    <string name="styled">myHomework</string>
     <string name="styled_content">This is a simple showcase of how to style the action bar to your liking. Be sure to remember that you need to consider both the custom and native action bar when styling. Looking at this activity\'s style is a good way to start.</string>
 
     <string name="submenus">Sub-menus</string>

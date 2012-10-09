@@ -5,6 +5,11 @@
         <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
         <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
     </style>
+    <style name="Theme.HWStyled" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.HWActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.HWActionBar</item>
+    </style>
+    
     <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
         <item name="background">@drawable/bg_striped</item>
         <item name="android:background">@drawable/bg_striped</item>
@@ -12,4 +17,14 @@
         <item name="backgroundSplit">@drawable/bg_striped_split</item>
         <item name="android:backgroundSplit">@drawable/bg_striped_split</item>
     </style>
+    <style name="Widget.Styled.HWActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/hwnav</item>
+        <item name="android:background">@drawable/hwnav</item>
+        
+        <item name="backgroundSplit">@drawable/hwnav</item>
+        <item name="android:backgroundSplit">@drawable/hwnav</item>
+    </style>
+    
+    
+    
 </resources>

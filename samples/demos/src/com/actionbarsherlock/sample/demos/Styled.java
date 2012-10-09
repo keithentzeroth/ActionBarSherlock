@@ -33,11 +33,11 @@ public class Styled extends SherlockActivity {
 
         //This is a workaround for http://b.android.com/15340 from http://stackoverflow.com/a/5852198/132047
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-            BitmapDrawable bg = (BitmapDrawable)getResources().getDrawable(R.drawable.bg_striped);
+            BitmapDrawable bg = (BitmapDrawable)getResources().getDrawable(R.drawable.hwnav);
             bg.setTileModeXY(TileMode.REPEAT, TileMode.REPEAT);
             getSupportActionBar().setBackgroundDrawable(bg);
 
-            BitmapDrawable bgSplit = (BitmapDrawable)getResources().getDrawable(R.drawable.bg_striped_split_img);
+            BitmapDrawable bgSplit = (BitmapDrawable)getResources().getDrawable(R.drawable.hwnav);
             bgSplit.setTileModeXY(TileMode.REPEAT, TileMode.REPEAT);
             getSupportActionBar().setSplitBackgroundDrawable(bgSplit);
         }

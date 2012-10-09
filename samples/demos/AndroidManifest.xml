@@ -156,7 +156,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:label="@string/styled" android:name=".Styled" android:theme="@style/Theme.Styled" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:label="@string/styled" android:name=".Styled" android:theme="@style/Theme.HWStyled" android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE"/>
